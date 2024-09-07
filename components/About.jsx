@@ -14,11 +14,11 @@ import {
 const infoData = [
   {
     icon: <User2 size={20} />,
-    text: "Cruiz",
+    text: "Umesh Chandra Das",
   },
   {
     icon: <PhoneCall size={20} />,
-    text: "+977 761 2112",
+    text: "+91 8260627714",
   },
   {
     icon: <MailIcon size={20} />,
@@ -43,19 +43,19 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "Example university",
+        university: "VSSUT,Burla,Sambalpur",
         qualification: "Bachelor of Technology",
         years: "2021-",
       },
       {
-        university: "Example university 2",
-        qualification: "Bachelor of Technology",
-        years: "2021-",
+        university: "JNV,Goshala,Sambalpur",
+        qualification: "Intermediate",
+        years: "2019-20",
       },
       {
-        university: "Example university 3",
-        qualification: "Bachelor of Technology",
-        years: "2021-",
+        university: "JNV,Goshala,Sambalpur",
+        qualification: "Matriculation",
+        years: "2017-18",
       },
     ],
   },
@@ -63,20 +63,20 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "ABC Inc.",
-        role: "Software Engineer",
-        years: "2021-",
+        company: "Exposys Data Labs",
+        role: "Full stack developer Intern",
+        years: "May 2024-June 2024",
       },
       {
-        company: "XYZ Inc.",
-        role: "Software Engineer",
-        years: "2021-",
+        company: "DRDO,Chandipur",
+        role: "Summer Trainee",
+        years: "May 2024-June 2024",
       },
-      {
-        company: "PQR Inc.",
-        role: "Software Engineer",
-        years: "2021-",
-      },
+      // {
+      //   company: "PQR Inc.",
+      //   role: "Software Engineer",
+      //   years: "2021-",
+      // },
     ],
   },
 ];
@@ -85,6 +85,9 @@ const skillData = [
   {
     title: "skills",
     data: [
+      {
+        name: "Python",
+      },
       {
         name: "HTML, CSS",
       },
@@ -105,15 +108,15 @@ const skillData = [
       {
         imgPath: "/about/vscode.svg",
       },
-      {
-        imgPath: "/about/figma.svg",
-      },
-      {
-        imgPath: "/about/notion.svg",
-      },
-      {
-        imgPath: "/about/wordpress.svg",
-      },
+      // {
+      //   imgPath: "/about/figma.svg",
+      // },
+      // {
+      //   imgPath: "/about/notion.svg",
+      // },
+      // {
+      //   imgPath: "/about/wordpress.svg",
+      // },
     ],
   },
 ];

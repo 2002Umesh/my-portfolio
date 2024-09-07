@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Cruiz</h1>
+            <h1 className="h1 mb-4">Hello, my name is Umesh</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Brief description with insights into myself, my vocational
               journey, and what I engage in professionally.
@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
           <div className="hidden xl:flex relative">
             {/* Badge */}
-            <Badge
+            {/* <Badge
               containerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
               endCountNum={3}
@@ -64,7 +64,7 @@ const Hero = () => {
               endCountNum={6}
               endCountText="k"
               badgeText="Finished Projects"
-            />
+            /> */}
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
               containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
